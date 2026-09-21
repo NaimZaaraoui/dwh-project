@@ -4,7 +4,7 @@
 # Script Purpose:
 #   This script loads data into the 'bronze' schema from external CSV files.
 #   It performs the following actions:
-#   - Truncate the bronze tables before loading data.
+#   - Truncates the bronze tables before loading data.
 #   - Uses the psql '\copy' command to load data from CSV files to bronze tables.
 # It handles authentication via local environment layer (.env) 
 # Usage Example:
